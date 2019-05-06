@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zoo>
+    <name>HarkovZoo</name>
+	<classes>
+		<class building="1">
+			<animals>
+				<animal view="cat family" name="Barsik" color="black" />
+				<animal view="cat family" name="Murzik" color="white" />
+				<animal view="cat family" name="Tom" color="grey" />
+			</animals>
+		</class>
+		<class building="2">
+			<animals>
+				<animal view="bears" name="Grizli" color="black" />
+				<animal view="bears" name="Mishka" color="white" />
+				<animal view="bears" name="Koala" color="grey" />
+			</animals>
+		</class>
+	</classes>
+</zoo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@ public class Lesson4_Collection {
         System.out.println();
         Set<String> set = new HashSet<String>(brendList);
         System.out.printf("%s ", set);
+        System.out.println("");
         set.add("intel");
         set.add("Dell");
         set.add("       Apple");
@@ -17,6 +18,6 @@ public class Lesson4_Collection {
         for (String el : set) {
             System.out.printf("%s \uD83D\uDEA9 ", el);  // для красоты
         }
-        System.out.println("\nКоличество элементов: " + set.size());﻿
+        System.out.println("\nКоличество элементов: " + set.size());
     }
 }
