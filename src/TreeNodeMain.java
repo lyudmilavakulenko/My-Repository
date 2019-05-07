@@ -1,4 +1,3 @@
-import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.io.*;
@@ -7,7 +6,11 @@ import java.util.*;
 public class TreeNodeMain {
 
     public static void main(String[] args) {
+
+
         TreeNode<String> root = new TreeNode<>("Root");
+
+        Tree <String> tree = new Tree<>(root);
 
         TreeNode<String> child1 = new TreeNode<>("Child1");
         TreeNode<String> grandChild5 = new TreeNode<>("GrandChild5");
@@ -50,16 +53,32 @@ public class TreeNodeMain {
         System.out.println(" ");
         System.out.println(root.findRecChild("Child5").getData().toString());
         System.out.println(root.findRecChild("Grandchild2").getData().toString());
-        System.out.println(" ");
-        /*System.out.println(root.findChild(root).getData().toString());
-        System.out.println(root.findChild(child1).getData().toString());
-        System.out.println(root.findChild(grandChild5).getData().toString());*/
+        System.out.println(" --- ");
+        //System.out.println(tree.findChild(child1).getData().toString());
+        //System.out.println(root.findChild(child1).getData().toString());
+        //System.out.println(root.findChild(grandChild5).getData().toString());
 
-        System.out.println(root.findRecChild2("Grandchild6").getData().toString());
+        System.out.println(root.findRecChild2("Child2").getData().toString());
+        System.out.println(root.findRecChild2("Child5").getData().toString());
+        System.out.println(root.findRecChild2("GrandChild5").getData().toString());
+        System.out.println(root.findRecChild2("GrandChild6").getData().toString());
 
-        System.out.println("After Stream");
+        /*System.out.println("----");
 
-        root.example();
+
+
+
+
+
+        for (TreeNode node : tree.allChild()) {
+            System.out.println(node.getData().toString());
+        }*/
+
+
+
+
+
+
 
 
 

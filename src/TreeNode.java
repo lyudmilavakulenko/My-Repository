@@ -1,5 +1,5 @@
 
-import com.sun.source.tree.Tree;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.*;
 import java.io.*;
 import java.util.function.Predicate;
-import java.util.stream.*;
 
 public class TreeNode<T> {
 
@@ -20,11 +19,6 @@ public class TreeNode<T> {
 
         this.data = data;
     }
-    /*public static int compare (TreeNode node1, TreeNode node2){
-        if (node1.getData() > node2.getData())
-            return 1;
-        return  -1;
-    }*/
 
     public void addChild(TreeNode child) {
         child.setParent(this);
@@ -106,24 +100,42 @@ public class TreeNode<T> {
         return null;
     }
 
-
     public TreeNode findRecChild2(T data) {
 
-        Iterator<TreeNode> iterator = children.iterator();
-        while (iterator.hasNext()) {
-            TreeNode nextChild = iterator.next();
-            if (!data.equals(nextChild.getData())) {
-                TreeNode treeNode = nextChild.findRecChild2(data);
-                if (treeNode.getData().equals(data)) {
-                    return treeNode;
+        TreeNode result = null;
+
+        if (data.equals(this.data)) {
+            return this;
+        } else {
+            for (TreeNode child : children) {
+                result = child.findRecChild2(data);
+                if (result != null) {
+                    return result;
                 }
-
             }
-            return nextChild;
         }
-
-        return null;
+        return result;
     }
+
+
+   /* public TreeNode findRecChild3(T data) {
+
+       while (!(data.equals(this.data))) {
+            Iterator<TreeNode> iterator = children.iterator();
+            while (iterator.hasNext()) {
+                TreeNode nextChild = iterator.next();
+                if (nextChild.getData().equals(data)) {
+                    return nextChild;
+                }
+                nextChild.findRecChild3(data);
+
+                break;
+            }
+
+        }
+       return this;
+    }*/
+
 
 
     public TreeNode findRecChild(T data) {
@@ -176,49 +188,25 @@ public class TreeNode<T> {
 
     }
 
-    /*public List <TreeNode> findAllNode () {
-        Iterator <TreeNode> iterator = children.iterator();
-        List <TreeNode> allNodes = new ArrayList<>();
-        while (iterator.hasNext()){
-            TreeNode nextChild = iterator.next();
-            if (nextChild.getData().toString().contains("dj")){
-                return children;
-            }
-            allNodes.add(nextChild);
-            nextChild.findAllNode();
+
+   /* public List<TreeNode> find(Predicate<T> predicate) {
+
+        Predicate predicate1 = (s) ->
+
+
+
+
+
+
+
         }
-        return allNodes;
-    }*/
 
-    public void example() {
-
-        List<TreeNode> treeNodeStream = children;
-        Collections.addAll(children);
-        //
-        Predicate <TreeNode> predicate1 = s -> s.getData().toString().contains("Ch");
-        Predicate <TreeNode> predicate2 = s -> s.getData().toString().endsWith("2");
-        Predicate <TreeNode> predicate3 = s -> s.findRecChild(data.toString().contains("Ch")).toString().contains("Ch");
-
-
-
-        treeNodeStream.stream().filter(predicate3).forEach(s -> System.out.println(s.getData()));
-       //treeNodeStream.stream().filter(predicate2).forEach(s -> System.out.println(s.getData()));
-
-        // treeNodeStream.stream().map(p -> p.getData()).forEach(p -> System.out.println(p));
-        //boolean contains = treeNodeStream.stream().anyMatch("C"::equals);
-    }
+*/
 }
 
 
 
 
-  /* public List<TreeNode> find(Predicate<T> predicate) {
-
-        Predicate predicate1 = (T data)
-
-
-        }
-*/
 
 
 
