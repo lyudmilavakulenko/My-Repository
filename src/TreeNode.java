@@ -206,8 +206,6 @@ public class TreeNode<T> {
 
         // treeNodeStream.stream().map(p -> p.getData()).forEach(p -> System.out.println(p));
         //boolean contains = treeNodeStream.stream().anyMatch("C"::equals);
-
-
     }
 }
 
