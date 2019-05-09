@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f01e9c-8df1-4f8c-bd79-27d2e3522cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SAX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SAXExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lyuda/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/TreeNodeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lyuda/TreeNodeMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNodeMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SAXExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="153">
+              <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +113,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SAXExample2.java">
+        <entry file="file://$PROJECT_DIR$/src/SAXExampleNext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,6 +204,8 @@
         <option value="$PROJECT_DIR$/example2.xsl" />
         <option value="$PROJECT_DIR$/src/SAXExample.java" />
         <option value="$PROJECT_DIR$/example3.xsl" />
+        <option value="$PROJECT_DIR$/src/SAXExample2.java" />
+        <option value="$PROJECT_DIR$/src/SAXExampleNext.java" />
       </list>
     </option>
   </component>
@@ -250,8 +247,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557439557473" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557439746417" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My-Repository" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -340,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557252848805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add SAX">
+      <created>1557439628194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557439628217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -418,7 +422,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ddd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ddd" />
+    <MESSAGE value="add SAX" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SAX" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -696,16 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SAXExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example3.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -713,10 +708,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SAXExample2.java">
+    <entry file="file://$PROJECT_DIR$/src/SAXExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SAXExampleNext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
