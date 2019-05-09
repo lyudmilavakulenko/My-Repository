@@ -54,25 +54,40 @@ public class TreeNodeMain {
         System.out.println(root.findRecChild("Child5").getData().toString());
         System.out.println(root.findRecChild("Grandchild2").getData().toString());
         System.out.println(" --- ");
-        //System.out.println(tree.findChild(child1).getData().toString());
-        //System.out.println(root.findChild(child1).getData().toString());
-        //System.out.println(root.findChild(grandChild5).getData().toString());
+        System.out.println(tree.findChild(child1).getData().toString());
+        System.out.println(root.findChild(grandChild5).getData().toString());
 
         System.out.println(root.findRecChild2("Child2").getData().toString());
         System.out.println(root.findRecChild2("Child5").getData().toString());
         System.out.println(root.findRecChild2("GrandChild5").getData().toString());
-        System.out.println(root.findRecChild2("GrandChild6").getData().toString());
+        System.out.println(root.findRecChild2("Grandchild6").getData().toString());
 
-        /*System.out.println("----");
+        System.out.println(" --- ");
 
+        System.out.println(tree.getNumberOfNodes());
 
+       System.out.println(tree.find("Grandchild6").getData());
+       System.out.println(tree.find("Child2").getData());
+       System.out.println(tree.find("Child5").getData());
+      System.out.println(tree.find("GrandChild5").getData());
 
-
-
+        System.out.println("------");
 
         for (TreeNode node : tree.allChild()) {
-            System.out.println(node.getData().toString());
-        }*/
+            System.out.println(node.getData());
+        }
+
+        System.out.println("------");
+
+        for (TreeNode node : tree.findSomething()) {
+            System.out.println(node.getData());
+        }
+
+
+
+
+
+
 
 
 

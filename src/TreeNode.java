@@ -58,6 +58,16 @@ public class TreeNode<T> {
         return parent;
     }
 
+    public int getNumberOfChildren() {
+        return getChildren().size();
+    }
+    public boolean hasChildren() {
+        return (getNumberOfChildren() > 0);
+    }
+    public TreeNode<T> getChildAt(int index)  {
+        return children.get(index);
+    }
+
     public void removeChild(TreeNode child) {
         children.remove(child);
     }
@@ -102,41 +112,18 @@ public class TreeNode<T> {
 
     public TreeNode findRecChild2(T data) {
 
-        TreeNode result = null;
-
-        if (data.equals(this.data)) {
+         if (data.equals(this.data)) {
             return this;
         } else {
             for (TreeNode child : children) {
-                result = child.findRecChild2(data);
+                TreeNode result = child.findRecChild2(data);
                 if (result != null) {
                     return result;
                 }
             }
         }
-        return result;
+        return null;
     }
-
-
-   /* public TreeNode findRecChild3(T data) {
-
-       while (!(data.equals(this.data))) {
-            Iterator<TreeNode> iterator = children.iterator();
-            while (iterator.hasNext()) {
-                TreeNode nextChild = iterator.next();
-                if (nextChild.getData().equals(data)) {
-                    return nextChild;
-                }
-                nextChild.findRecChild3(data);
-
-                break;
-            }
-
-        }
-       return this;
-    }*/
-
-
 
     public TreeNode findRecChild(T data) {
 
@@ -189,20 +176,12 @@ public class TreeNode<T> {
     }
 
 
-   /* public List<TreeNode> find(Predicate<T> predicate) {
-
-        Predicate predicate1 = (s) ->
+    }
 
 
 
 
 
-
-
-        }
-
-*/
-}
 
 
 
