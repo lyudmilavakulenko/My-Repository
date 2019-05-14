@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f01e9c-8df1-4f8c-bd79-27d2e3522cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="23f01e9c-8df1-4f8c-bd79-27d2e3522cd5" name="Default Changelist" comment="add SAX">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lyuda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lyuda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Cheloveki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/DOM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/DOMExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/DOMExample2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Fry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Glavniy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Happiness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Lesson1_Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Lesson4_Collection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/MainOne$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/MainOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Rick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/TreeNodeMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/WSpisok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lyuda/Woman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cheloveki.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DOM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DOMExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DOMExample2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Glavniy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Happiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1_Strings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson4_Collection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Man.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SAX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SAXExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SAXExampleNext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNodeMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WSpisok.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Woman.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,10 +46,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -287,13 +244,6 @@
             </path>
             <path>
               <item name="Lyuda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lyuda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lyuda" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -304,14 +254,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557870728487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557871368545" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="C:/java_projects/sources/example" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -432,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557440198454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add SAX">
+      <created>1557870844728</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557870844728</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -614,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cheloveki.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -702,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DOMExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -756,13 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -855,6 +788,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cheloveki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -878,13 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TreeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
