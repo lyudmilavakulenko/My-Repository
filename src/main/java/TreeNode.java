@@ -48,6 +48,9 @@ public class TreeNode<T> {
     public List<TreeNode> getChildren() {
         return children;
     }
+    public void setChildren(List<TreeNode> children) {
+        this.children = children;
+    }
 
     public T getData() {
         return data;
@@ -57,7 +60,7 @@ public class TreeNode<T> {
         this.data = data;
     }
 
-    private void setParent(TreeNode parent) {
+   public void setParent(TreeNode parent) {
         this.parent = parent;
     }
 

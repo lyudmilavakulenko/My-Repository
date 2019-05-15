@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.function.Predicate;
 
 
@@ -31,11 +32,11 @@ public class TreeNodeMain {
         root.addChild(child2);
         root.addChild("Child3");
 
-        /*root.addChildren(Arrays.asList(
+        root.addChildren(Arrays.asList(
             new TreeNode<>("Child4"),
             new TreeNode<>("Child5"),
             new TreeNode<>("Child6")
-        ));*/
+        ));
 
         for (TreeNode node : root.getChildren()) {
             System.out.println(node.getData());
@@ -57,18 +58,6 @@ public class TreeNodeMain {
         System.out.println(grandChild5.findRoot().getData().toString());
         System.out.println(" --- ");
         //System.out.println(root.findRecChild("Child5").getData().toString());
-        System.out.println(root.findRecChild("Grandchild2").getData().toString());
-
-        System.out.println(" --- ");
-
-        System.out.println(root.findChild(child1).getData().toString());
-        System.out.println(root.findChild(grandChild5).getData().toString());
-
-        System.out.println(root.findRecChild2("Child2").getData().toString());
-        System.out.println(root.findRecChild2("GrandChild6").getData().toString());
-
-        System.out.println(" --- ");
-
         System.out.println(tree.findRecChild("Child2").getData().toString());
         System.out.println(tree.findRecChild("GrandChild6").getData().toString());
 
