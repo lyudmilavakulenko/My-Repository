@@ -1,5 +1,6 @@
-import java.util.Arrays;
+
 import java.util.function.Predicate;
+
 
 /**
  * hhh.classTreeNodeMain
@@ -78,15 +79,15 @@ public class TreeNodeMain {
         }
         System.out.println(" --- ");
 
-       /*Predicate<TreeNode> predicate1 = new Predicate<TreeNode>() {
-           public boolean test(TreeNode child) {
+        Predicate<TreeNode> predicate1 = new Predicate<TreeNode>() {
+            public boolean test(TreeNode child) {
                 return child.getData().toString().contains("3");
-           }
-       };
+            }
+        };
 
         for (TreeNode node : tree.findSomething(predicate1)) {
             System.out.println(node.getData());
-        }*/
+        }
 
         //tree.buildXMLTree(root);
 

@@ -155,14 +155,14 @@ public class Tree<T> {
      * @param predicate;
      * @return;
      */
-   /* public List<TreeNode> findSomething(Predicate<TreeNode> predicate) {
+      public List<TreeNode> findSomething(Predicate<TreeNode> predicate) {
 
         List<TreeNode> allChildren = getAllChild();
         Collections.addAll(getAllChild());
 
-        List <TreeNode> filteredChildren = allChildren.stream().filter(predicate).collect(Collectors.toList());
+        List<TreeNode> filteredChildren = allChildren.stream().filter(predicate).collect(Collectors.toList());
         return filteredChildren;
-    }*/
+    }
 
     /**
      * hhh.XMLtree building method

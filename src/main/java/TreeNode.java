@@ -1,11 +1,8 @@
+
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Iterator;
-import java.util.Deque;
-import java.util.ArrayDeque;
-import java.util.Collections;
-import java.util.Queue;
+
 
 /**
  * hhh.class TreeNode
@@ -143,96 +140,4 @@ public class TreeNode<T> {
         }
         return null;
     }
-
-    /**
-     * hhh.search node recursively
-     *
-     * @param data;
-     * @return TreeNode;
-     */
-    public TreeNode findRecChild2(T data) {
-
-        if (data.equals(this.data)) {
-            return this;
-        } else {
-            for (TreeNode child : children) {
-                TreeNode result = child.findRecChild2(data);
-                if (result != null) {
-                    return result;
-                }
-            }
-        }
-        return null;
-    }
-
-    /**
-     * hhh.searching a node using a stack
-     *
-     * @param data;
-     * @return TreeNode;
-     */
-    public TreeNode findRecChild(T data) {
-
-        Iterator<TreeNode> iterator = children.iterator();
-        TreeNode root = iterator.next().findRoot();
-
-        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        stack.push(root);
-
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
-            if (node.getData().equals(data)) {
-                return node;
-            }
-            List<TreeNode> nodes = new ArrayList<TreeNode>(node.getChildren());
-            Collections.reverse(nodes);
-            for (TreeNode child : nodes) {
-                stack.push(child);
-            }
-        }
-        return null;
-    }
-
-    /**
-     * hhh.searching a node using a queue
-     *
-     * @param child;
-     * @return TreeNode4
-     */
-    public TreeNode findChild(TreeNode child) {
-        TreeNode root = child.findRoot();
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.add(root);
-        if (root.equals(child)) {
-            return child;
-        }
-        queue.remove(root);
-        List<TreeNode> rootChildren = new ArrayList<TreeNode>(root.getChildren());
-        for (TreeNode rootChild : rootChildren) {
-            queue.add(rootChild);
-        }
-        while (!queue.isEmpty()) {
-            TreeNode result = ((LinkedList<TreeNode>) queue).getFirst();
-            List<TreeNode> resultChildren = new ArrayList<TreeNode>(result.getChildren());
-            for (TreeNode resultGrandChild : resultChildren) {
-                ((LinkedList<TreeNode>) queue).add(resultGrandChild);
-            }
-            if (result.equals(child)) {
-                return result;
-            }
-            ((LinkedList<TreeNode>) queue).removeFirst();
-        }
-        return null;
-    }
-
 }
-
-
-
-
-
-
-
-
-
-
